@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    background-color: black;
+}
+
+h1{
+    color:aqua;
+    font-size: 40px;
+    margin-top: 300px;
+}
+
+input{
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid aqua;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+    margin:100px auto;
+    background-color: aliceblue;
+    padding: 30px;
+}
+
+button{
+    padding:10px;
+    background-color: aqua;
+    border:none;
+    color: wheat;
+}
+button:hover{
+    background-color: black;
+}
